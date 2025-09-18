@@ -1,0 +1,65 @@
+.video-main{
+    height: 100vh;
+    background-color: lightcoral;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.video-card{
+    background-color: black;
+    width: 990px;
+    height: 900px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-direction: column;
+}
+.video-upload{
+     height: 500px;
+     width: 500px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+    
+}
+.video-circle{
+    background-color:rgb(44, 43, 43);
+    color: wheat;
+    height: 150px;
+    width: 150px;
+    clip-path: circle();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 20px;
+      
+}
+.video-text{
+    margin-bottom: 10px;
+     text-align: center;
+}
+.video-button input{
+    display: none;
+}
+.video-button button{
+ height: 38px;
+ width: 130px;
+ border-radius: 4px;
+ border-width: 0px;
+
+font-family: sans-serif;
+font-size: medium;
+font-weight: 600;
+}
+.video-circle input{
+    display: none;
+}
+.rocket-icons{
+    height: 120px;
+    width: 300px;
+}

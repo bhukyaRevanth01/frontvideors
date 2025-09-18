@@ -1,0 +1,125 @@
+.pro-button{
+    background: transparent;
+    border-width: 0px;
+}
+.pro-icon{
+    height: 100px;
+    width: 38px;
+}
+.nav-child-2 input{
+ font-size: large;
+ padding-left: 10px;
+ background-color: #e0dddd;
+ font-family: Arial, Helvetica, sans-serif;
+    width: 440px;
+    height: 35px;
+    margin: 3px;
+    outline: none;
+    border-radius: 10px;
+    border-width: 1px;
+    background: transparent;
+    color: black;
+
+}
+.nav-head-1{
+  position: relative
+  ;
+  background-color: white;
+    width: 95vw;
+ height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* SIDEbar */
+.button-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      row-gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+   
+}
+.underline{
+color: rgb(65, 63, 63);
+
+width: 280px;
+}
+.button-1 button{
+    width: 200px;
+    height: 45px;
+    border-radius: 7px;
+    border-width: 0px;
+    background: none;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.button-1 button:hover{
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+
+.main{
+border-radius: 10px;
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+}
+.card-1{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card-2{
+    background-color: rgb(36, 120, 148);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+ 
+}
+.menu-card-1{
+    height: 100vh;
+    background-color: white;
+    margin: 2px 0px 10px 0px;
+    border-radius: 0px 10px 10px 0px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+    
+}
+.menu-card-1::-webkit-scrollbar{
+    width: 10px;
+}
+.menu-card-1::-webkit-scrollbar-track{
+    background-color: rgb(228, 226, 226);
+    border-radius: 10px;
+}
+.menu-card-1::-webkit-scrollbar-thumb{
+    background:#c7c3c3;
+    border-radius: 10px;
+}
+.menu-card-1::-webkit-scrollbar-thumb:hover{
+    background: #888;
+
+}
+
+.menu-card-2{
+    
+     margin-top: 3px;
+     width: 100vw;
+     
+    
+}

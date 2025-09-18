@@ -1,0 +1,149 @@
+.profileCardInput{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.profileCard1 input{
+ width: max-content;
+ font-family: sans-serif;
+ 
+   
+}
+.datainfo-one{
+   margin: 10px;
+   background-color:rgba(76, 86, 90, 0.3);
+    display: flex;
+    align-items: center;
+     width: 670px;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+.datainfo-one h1,h4,h5 {
+   color: white;
+
+}
+
+.datainfo-main{
+ height: 100vh;
+   background: url('https://i.pinimg.com/1200x/e0/fc/df/e0fcdfa0f4296ab27dcb0695235e9316.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    border-radius: 12px;
+    display: flex;
+
+     justify-content: center;
+     align-items: center; 
+    
+}
+
+
+.datainfo-child{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    width: 60vw;
+    height: max-content;
+     
+ 
+}
+
+
+.datainfo-img{
+ height: 165px;
+ width: 165px;
+ margin: 5px;
+ margin-right: 40px;
+ border-radius: 9px;
+ object-fit: cover;
+}
+ .datainfo-text{
+  text-overflow: clip;
+margin-right: 10px;
+
+}
+.profile-main{
+    background-color: rgba(53, 62, 65, 0.3);
+    display: flex;
+    flex-direction: column;
+     width: 670px;
+      margin: 1px ;
+
+}
+.profile-main div{
+    background-color:rgba(53, 62, 65, 0.3);
+    display: flex;    
+ 
+    
+}
+.profile-main div button{
+   background-color: transparent;
+    margin: 10px;
+    border-width: 0px;
+    padding: 7px;
+    border-radius: 9px;
+    font-size: large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+ .profile-main div button:hover{
+    background-color: rgb(211, 205, 205);
+    color: black;
+ }
+ .profile-footer{
+    background-color:rgba(53, 62, 65, 0.3);
+    width: 650px;
+    border-radius: 1px 1px 11px 11px ;
+    flex-direction: column;
+    display: flex;
+       padding: 10px;
+       margin: 10px;
+ }
+ .profile-footer-card{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 7px;
+    
+ }
+  .icons{
+   height: 34px;
+   width: 35px;
+   margin-right: 5px;
+  }
+ .profile-footer-card button{
+      background-color:rgb(109, 185, 211,0.0);
+    border-width: 0px;
+    padding: 7px;
+    border-radius: 9px;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+ }
+ .profile-footer-card button:hover{
+background-color: lightgrey;
+color: black;
+
+ }
+ .profileo-foooter-mail{
+    display: flex;
+ margin: 9px;
+    justify-content: center;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+ }
+ .footer-icons{
+      height: 25px;
+  width: 30px;
+  margin-right: 4px;
+ }
+

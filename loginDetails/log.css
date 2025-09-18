@@ -1,0 +1,193 @@
+.login-card{
+    background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+     height: 500px;
+     width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.login-main{
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../resourceStores/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 94vh;
+}
+.login-head{
+    
+    font-size: 30px;
+    font-weight: 600;
+}
+.login-card input{
+    height: 45px;
+    width: 350px;
+    margin: 30px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 600;
+    outline: none;
+
+}
+.login-card select{
+     height: 40px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    outline: none;
+}
+
+
+
+ 
+.sinup-footer{
+    margin-bottom: 10px;
+}
+.userName-input input{
+    height: 30px;
+ 
+    width: max-content;
+    border-radius: 7px;
+}
+.singup-header{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    
+}
+.singup-header button{
+    width: 50px;
+    height: 35px;
+    font-size: 30px;
+    background: none;
+    border-width: 0px;
+}
+.singup-image label{
+    font-size: medium;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.video-file{
+ display:none;
+}
+
+.singup-image{
+    background-color: lightskyblue;
+    height: 220px;
+    width: 160px;
+    clip-path: circle();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.singup-main{
+ height: 100vh;
+ width: 100vw;
+background-image: url('../resourceStores/spiderfree.png');
+background-repeat: no-repeat;
+background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.singup-two{
+    height: 500px;
+    width: 500px;
+   background-color: rgba(61, 58, 58, 0.5); 
+  color: white;
+    display: flex;
+       flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 20px;
+      
+}
+.singup-one{
+   
+       background-color: rgba(61, 58, 58, 0.5); 
+  color: white;
+     height: 500px;
+     width: 500px;
+      display: flex;
+       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+ 
+}
+.singup-one:hover{
+    box-shadow: -1px 1px 5px 1px white;
+}
+.singup-two:hover{
+    box-shadow: -1px 1px 5px 1px white;
+}
+.singup-one input{
+    height: 40px;
+    width: 360px;
+    margin: 30px;
+    outline: 0px;
+    border-width: 0px;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: large;
+    font-family:sans-serif;
+     font-weight: 400;
+}
+.singup-head{
+    width: 500px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.singup-one button{
+  
+    border-width: 0px;
+}
+.singup-one select{
+ height: 40px;
+    width: 360px;
+    margin: 30px;
+    outline: 0px;
+    border-width: 0px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.singup-text{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+select{
+       font-size: large;
+    font-family:sans-serif;
+     
+}
+.log-button{
+ font-family:sans-serif;
+ font-weight: 600;
+ font-size: medium;
+  height: 35px;
+  width:340px;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.singup-second-Header{
+    background-color: red;
+    height: 120px;
+}

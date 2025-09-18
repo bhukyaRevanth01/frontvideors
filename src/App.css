@@ -1,0 +1,59 @@
+ *{
+  margin: 0px;
+
+ }
+.home-main{
+  background-image: url('../resourceStores/spider.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  
+}
+
+.home-card{
+ color: white;
+   height: 220px;
+   width:max-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ 
+}
+.home-card h1{
+  font-size: 100px;
+  font-family:cursive;
+}
+
+.home-btn-1{
+ font-family:sans-serif;
+ font-weight: 700;
+ font-size: medium;
+  height: 35px;
+  width:80px;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.home-btn-2{
+  color: white;
+ font-family:sans-serif;
+  font-weight: 700;
+ font-size: medium;
+background: transparent;
+
+  height: 35px;
+  width:80px;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 10px;
+  border-width: 1px ;
+  border-color: white;
+
+}
